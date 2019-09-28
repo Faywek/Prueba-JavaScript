@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prueba</title>
+
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    
+    <!-- Data Tables -->
+    <link href="assets/css/plugins/dataTables/dataTables.bootstrap.css" rel="stylesheet">
+    <link href="assets/css/plugins/dataTables/dataTables.responsive.css" rel="stylesheet">
+    <link href="assets/css/plugins/dataTables/dataTables.tableTools.min.css" rel="stylesheet">
+    
+    <link href="assets/css/plugins/sweetalert/sweetalert.css" rel="stylesheet">
+
+    <style>
+        .hiddeTable{
+            display: none;
+        }
+    </style>
+
+</head>
+
+<body>  
+    <div id="wrapper">
+        <div id="page-wrapper" class="gray-bg">
+            <div class="wrapper wrapper-content">
+                <div class="big-box text-center animated fadeInRightBig">
+                    <h3 class="font-bold">10 mejores pel&iacute;culas seg&uacute;n IMDB</h3>
+					<div class="row">
+			    		<div class="col-lg-12">
+			    			<!-- <div class="col-lg-5">-->
+			    				<a class="btn btn-w-m btn-success" id="btnListado">Mostrar l&iacute;stado de pel&iacute;culas</a>
+			    			<!--</div>-->
+			    		</div>
+			    	</div>
+			    	</br>
+			    	<div class="row">
+			    		<div class="col-lg-12">
+			    			<table id="tblePeliculas" class="hiddeTable table table-striped table-bordered table-hover">
+			    				<thead>
+			    					<tr>
+				    					<th>Pelicula</th>
+				    					<th>A&ntilde;o</th>
+				    					<th>Director</th>
+				    					<th>MetaScore</th>
+				    					<th>Rating</th>
+				    				</tr>
+			    				</thead>
+			    				<tbody id="detalleTabla"></tbody>
+			    			</table>
+			    		</div>
+			    	</div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    <!-- Mainly scripts -->
+<!--     <script src="assets/js/jquery-2.1.1.js"></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    
+    <!-- Data Tables -->
+    <script src="assets/js/plugins/dataTables/jquery.dataTables.js"></script>
+    <script src="assets/js/plugins/dataTables/dataTables.bootstrap.js"></script>
+    <script src="assets/js/plugins/dataTables/dataTables.responsive.js"></script>
+    <script src="assets/js/plugins/dataTables/dataTables.tableTools.min.js"></script>
+    
+    <!-- Sweet alert -->
+    <script src="assets/js/plugins/sweetalert/sweetalert.min.js"></script>
+
+	<script src="assets/js/ctrl/general.js"></script>
+
+
+</body>
+
+<!-- Mirrored from webapplayers.com/inspinia_admin-v2.3/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 07 Oct 2015 18:56:44 GMT -->
+</html>
